@@ -10,19 +10,19 @@ cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Em9VIkILW2CwGApb7j36.HkD38p8XHYNXC/RJ9Xo2HG.EfTYFgHm2IjYv6yqEElm0UFbXTkvk2avZqV8pCwYjEE=")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="Emp84Zeb9fl9CC9lBMu5.9t4wrnXPyY6m3qm/g3f4Pq.G6DIl7V1tDxhiNzV187nsLcdyXLxifgMgzdwY3aCG5I=")
+ki2.login(qr=True)
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="EmWzkBPZWmVfiBQbNHw4.nhCM9bm527bW1pw6cY359a.vbuam3vaByorGM7axkyDrrFhmL2s8V/oOvrUOKAk0Rg=")
+ki3.login(qr=True)
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="EmCc77A5ZHufod7zVN48.va1X7L9l5o27JChRLI54sa.2lGORWOJISLhjE51NBNgNMroJq0xVFJ7Ffm4GogVs4Y=")
+ki4.login(qr=True)
 ki4.loginResult()
 
 print "login success"
@@ -82,7 +82,7 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid]
-admsa = "u28a1c7da6625d87f61c5f15b09b4167a"
+admsa = "U8b2b10518d954346a0324efe4e96b1a4"
 
 wait = {
     'contact':False,
